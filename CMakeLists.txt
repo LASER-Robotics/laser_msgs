@@ -15,6 +15,13 @@ add_message_files(
   ObstacleData.msg
   ObstaclePerception.msg
   BoolArray.msg
+  PointArrayStamped.msg
+  PointWithBool.msg
+  PointWithString.msg
+  PointWithStringArrayStamped.msg
+  PolygonArrayStamped.msg
+  ReadingVariance.msg
+  BoolStamped.msg
 )
 
 add_service_files(
@@ -31,7 +38,7 @@ generate_messages(
 )
 
 catkin_package(
-  CATKIN_DEPENDS message_runtime
+  CATKIN_DEPENDS message_runtime std_msgs geometry_msgs
 )
 
 include_directories(
