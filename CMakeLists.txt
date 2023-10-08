@@ -15,6 +15,7 @@ add_message_files(
   ObstacleData.msg
   ObstaclePerception.msg
   BoolArray.msg
+  PointArray.msg
   PointArrayStamped.msg
   PointWithBoolArrayStamped.msg
   PointWithBool.msg
@@ -30,6 +31,7 @@ add_service_files(
   FeetPositions.srv
   LegsActuatorsAngles.srv
   AttachOrDetach.srv
+  Kmeans.srv
 )
 
 generate_messages(
