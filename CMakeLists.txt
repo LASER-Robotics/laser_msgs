@@ -24,6 +24,7 @@ add_message_files(
   PolygonArrayStamped.msg
   ReadingVariance.msg
   BoolStamped.msg
+  StringArrayStamped.msg
 )
 
 add_service_files(
