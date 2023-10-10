@@ -1,7 +1,7 @@
-laser_msgs/PointArray points
+geometry_msgs/Point[] points
 
 ---------
 
-laser_msgs/PointArray res
+geometry_msgs/Point[] res
 
 
