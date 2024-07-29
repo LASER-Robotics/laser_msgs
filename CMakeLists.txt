@@ -23,6 +23,8 @@ add_message_files(
   PolygonArrayStamped.msg
   ReadingVariance.msg
   BoolStamped.msg
+  Rect.msg
+  RectArrayStamped.msg
   StringArrayStamped.msg
 )
 
