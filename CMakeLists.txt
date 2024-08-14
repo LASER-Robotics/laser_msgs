@@ -16,6 +16,8 @@ add_message_files(
   ObstaclePerception.msg
   BoolArray.msg
   PointArrayStamped.msg
+  PointWithAngle.msg
+  PointWithAngleStamped.msg
   PointWithBoolArrayStamped.msg
   PointWithBool.msg
   PointWithString.msg
