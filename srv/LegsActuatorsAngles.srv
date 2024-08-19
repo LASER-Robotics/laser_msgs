@@ -1,6 +1,0 @@
-std_msgs/Bool[6] move_by_angle
-laser_msgs/Angles[6] legs
-
-------------
-
-bool sucess
