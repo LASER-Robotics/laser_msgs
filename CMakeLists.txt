@@ -36,6 +36,7 @@ add_service_files(
   LegsActuatorsAngles.srv
   AttachOrDetach.srv
   Kmeans.srv
+  OpenCloseGarra.srv
 )
 
 generate_messages(
