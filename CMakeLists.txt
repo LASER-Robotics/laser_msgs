@@ -28,6 +28,8 @@ add_message_files(
   Rect.msg
   RectArrayStamped.msg
   StringArrayStamped.msg
+  EstimatorHeightStamped.msg
+  VisualHeightStamped.msg
 )
 
 add_service_files(
