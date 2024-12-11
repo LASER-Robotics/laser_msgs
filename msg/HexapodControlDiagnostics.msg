@@ -1,7 +1,9 @@
+std_msgs/String current_control_manager_mode
 std_msgs/String active_leg_tracker
 std_msgs/String active_joint_controller
 std_msgs/Bool admittance_controller
 std_msgs/Bool inclination_controller
+std_msgs/Float64 highest_foot_position_error 
 laser_msgs/PointArray foots_positions_reference
 laser_msgs/PointArray foots_positions_state
 laser_msgs/PointArray foots_force_contact_state

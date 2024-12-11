@@ -16,6 +16,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PointArray.msg"
   "msg/ThetaAngles.msg"
   "msg/HexapodControlDiagnostics.msg"
+  "msg/LegsReferenceRequest.msg"
+  "srv/SetString.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
