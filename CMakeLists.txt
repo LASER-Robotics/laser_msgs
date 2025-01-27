@@ -11,6 +11,9 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/px4_api/BodyRate.msg"
+  "msg/px4_api/ThrustAndTorque.msg"
+  "msg/px4_api/DirectMotors.msg"
   "msg/BoolArray.msg"
   "msg/Rpy.msg"
   "msg/PointArray.msg"
