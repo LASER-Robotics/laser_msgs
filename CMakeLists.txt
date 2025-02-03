@@ -11,11 +11,15 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/px4_api/BodyRate.msg"
+  "msg/px4_api/ThrustAndTorque.msg"
+  "msg/px4_api/DirectMotors.msg"
   "msg/BoolArray.msg"
   "msg/Rpy.msg"
   "msg/PointArray.msg"
   "msg/ThetaAngles.msg"
   "msg/HexapodControlDiagnostics.msg"
+  "msg/HexapodBehaviorsDiagnostics.msg"
   "msg/LegsReferenceRequest.msg"
   "msg/HexapodClosestWallPose.msg"
   "srv/SetString.srv"
