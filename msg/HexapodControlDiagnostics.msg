@@ -3,6 +3,7 @@ std_msgs/String active_leg_tracker
 std_msgs/String active_joint_controller
 std_msgs/Bool admittance_controller
 std_msgs/Bool inclination_controller
+std_msgs/Float64[] foots_position_error
 std_msgs/Float64 highest_foot_position_error 
 std_msgs/Float64 trackers_error_admitted 
 laser_msgs/PointArray foots_positions_reference
