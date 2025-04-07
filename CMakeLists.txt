@@ -17,6 +17,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BoolArray.msg"
   "msg/Rpy.msg"
   "msg/PointArray.msg"
+  "msg/PointArrayStamped.msg"
   "msg/ThetaAngles.msg"
   "msg/HexapodControlDiagnostics.msg"
   "msg/HexapodBehaviorsDiagnostics.msg"
