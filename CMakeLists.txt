@@ -23,6 +23,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/HexapodBehaviorsDiagnostics.msg"
   "msg/LegsReferenceRequest.msg"
   "msg/HexapodClosestWallPose.msg"
+  "msg/PointWithString.msg"
+  "msg/PointWithStringArrayStamped.msg"
   "srv/SetString.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
