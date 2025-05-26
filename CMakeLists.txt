@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/BodyRate.msg"
+  "msg/ReferenceState.msg"
   "msg/AttitudeRatesAndThrust.msg"
   "msg/BoolArray.msg"
   "msg/Rpy.msg"
