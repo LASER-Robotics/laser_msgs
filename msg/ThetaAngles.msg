@@ -1,3 +1,4 @@
+# theta angles for each motor in a leg of a hexapod robot 
 float64 theta1
 float64 theta2
 float64 theta3

@@ -1,2 +1,0 @@
-geometry_msgs/Vector3 angular_rates
-std_msgs/Float64 thrust_body
