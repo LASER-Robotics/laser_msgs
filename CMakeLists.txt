@@ -13,7 +13,6 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ApiPx4Diagnostics.msg"
   "msg/UavControlDiagnostics.msg"
-  "msg/BodyRate.msg"
   "msg/TrajectoryPath.msg"
   "msg/ReferenceState.msg"
   "msg/AttitudeRatesAndThrust.msg"
