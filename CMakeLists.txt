@@ -11,25 +11,18 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/ApiPx4Diagnostics.msg"
-  "msg/UavControlDiagnostics.msg"
-  "msg/TrajectoryPath.msg"
-  "msg/ReferenceState.msg"
-  "msg/AttitudeRatesAndThrust.msg"
   "msg/BoolArray.msg"
-  "msg/Rpy.msg"
+  "msg/HexapodBehaviorsDiagnostics.msg"
+  "msg/HexapodClosestWallPose.msg"
+  "msg/HexapodControlDiagnostics.msg"
+  "msg/LegsReferenceRequest.msg"
   "msg/PointArray.msg"
   "msg/PointArrayStamped.msg"
-  "msg/ThetaAngles.msg"
-  "msg/HexapodControlDiagnostics.msg"
-  "msg/HexapodBehaviorsDiagnostics.msg"
-  "msg/LegsReferenceRequest.msg"
-  "msg/HexapodClosestWallPose.msg"
   "msg/PointWithString.msg"
   "msg/PointWithStringArrayStamped.msg"
-  "msg/MotorSpeed.msg"
-  "msg/SensorStatus.msg"
-  "msg/EstimationManagerDiagnostics.msg"
+  "msg/ReferenceState.msg"
+  "msg/Rpy.msg"
+  "msg/ThetaAngles.msg"
   "srv/SetString.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
