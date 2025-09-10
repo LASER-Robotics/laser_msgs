@@ -28,6 +28,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PointWithString.msg"
   "msg/PointWithStringArrayStamped.msg"
   "msg/MotorSpeed.msg"
+  "msg/SensorStatus.msg"
+  "msg/EstimationManagerDiagnostics.msg"
   "srv/SetString.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
