@@ -1,6 +1,0 @@
-std_msgs/Bool in_preparation
-std_msgs/String preparation_state
-std_msgs/String current_behavior
-std_msgs/Int16 current_step
-std_msgs/Int16 total_steps
-std_msgs/Bool behavior_done
