@@ -24,6 +24,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Rpy.msg"
   "msg/ThetaAngles.msg"
   "srv/SetString.srv"
+  "srv/SetFloat64.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
