@@ -1,2 +1,2 @@
-float64 speed                   # disered speed for the trajectory
-geometry_msgs/Pose[] waypoints  # array with the trajectory waypoints
+float64 speed                           # disered speed for the trajectory
+laser_msgs/PoseWithHeading[] waypoints  # array with the trajectory waypoints 
