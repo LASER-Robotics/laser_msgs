@@ -15,6 +15,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/UavControlDiagnostics.msg"
   "msg/TrajectoryPath.msg"
   "msg/ReferenceState.msg"
+  "msg/Float64Header.msg"
   "msg/AttitudeRatesAndThrust.msg"
   "msg/PointArray.msg"
   "msg/PointArrayStamped.msg"
