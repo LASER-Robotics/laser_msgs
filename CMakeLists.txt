@@ -28,6 +28,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/EstimationManagerDiagnostics.msg"
   "msg/Metrics.msg"
   "srv/SetString.srv"
+  "srv/ToggleOdom.srv"
   DEPENDENCIES std_msgs geometry_msgs
 )
 
