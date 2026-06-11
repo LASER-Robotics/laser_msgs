@@ -26,6 +26,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/MotorSpeedStamped.msg"
   "msg/SensorStatus.msg"
   "msg/PoseWithHeading.msg"
+  "msg/NeighborOdomArray.msg"
+  "msg/NeighborOdom.msg"
   "msg/EstimationManagerDiagnostics.msg"
   "msg/Metrics.msg"
   "srv/SetString.srv"
