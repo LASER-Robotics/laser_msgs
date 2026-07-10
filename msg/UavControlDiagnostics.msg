@@ -1,5 +1,6 @@
 std_msgs/Header header                          # header
 bool is_fly                                     # is the drone flying? 
+bool collision                                  # Imminent collision with other drones? 
 bool have_goal                                  # does the drone have a purpose?
 laser_msgs/Metrics metrics
 float64 estimated_mass  
