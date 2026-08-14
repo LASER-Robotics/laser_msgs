@@ -1,19 +1,11 @@
-# Descrição do estado de um único sensor para fins de diagnóstico.
+string name # sensor name
 
-# Nome do sensor (ex: "px4_odometry", "imu")
-string name
+bool is_active # indicates whether the sensor is considered active
 
-# Indica se o sensor está a ser considerado ativo (recebeu mensagens recentemente)
-bool is_active
+bool has_timeout # indicates whether the sensor has exceeded its timeout
 
-# Indica se o sensor excedeu o seu tempo limite (timeout)
-bool has_timeout
+uint32 buffer_size # number of messages currently in the buffer for this sensor
 
-# Número de mensagens atualmente no buffer para este sensor
-uint32 buffer_size
+builtin_interfaces/Time last_message_stamp # timestamp of the last message received from this sensor
 
-# Timestamp da última mensagem recebida deste sensor
-builtin_interfaces/Time last_message_stamp
-
-# Tempo em segundos desde a última mensagem recebida
-float64 time_since_last_message
+float64 time_since_last_message # time in seconds since the last message received

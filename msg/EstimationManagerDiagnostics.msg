@@ -1,16 +1,7 @@
-# Mensagem de diagnóstico para o nó StateEstimator
+std_msgs/Header header # default header with timestamp
 
-# Cabeçalho padrão com timestamp
-std_msgs/Header header
+string active_odometry_source # name of the odometry source used by EKF
 
-# Nome da fonte de odometria que está a ser ativamente usada pelo EKF
-string active_odometry_source
+bool is_initialized # estimator inicialized?
 
-# O EKF já foi inicializado?
-bool is_initialized
-
-# Lista com o estado de cada fonte de odometria
-SensorStatus[] odometry_sources
-
-# Estado do sensor IMU
-SensorStatus imu_status
+SensorStatus[] odometry_sources # list with the state of each odometry source
