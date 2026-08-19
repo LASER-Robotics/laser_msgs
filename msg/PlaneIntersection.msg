@@ -1,0 +1,5 @@
+std_msgs/Header header
+geometry_msgs/Point edge_point
+geometry_msgs/Vector3 edge_direction
+geometry_msgs/Vector3 wall_normal
+float32 dihedral_angle

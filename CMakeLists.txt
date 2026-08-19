@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PointArrayStamped.msg"
   "msg/PointWithString.msg"
   "msg/PointWithStringArrayStamped.msg"
+  "msg/PlaneIntersection.msg"
   "msg/ReferenceState.msg"
   "msg/Rpy.msg"
   "msg/ThetaAngles.msg"
