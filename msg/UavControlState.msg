@@ -1,0 +1,9 @@
+std_msgs/Header header
+uint64 flight_id
+uint64 mission_id
+bool ready_for_tracking
+bool emergency_hold
+uint32 horizon_length
+float64 horizon_dt
+laser_msgs/ReferenceState reference
+float64 estimated_mass
